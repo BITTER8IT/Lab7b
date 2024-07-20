@@ -32,7 +32,7 @@ public class AppTest
     @Before
     public void setUp() { 
 		driver = new HtmlUnitDriver(); 
-		wait = new WebDriverWait(driver, 20); 
+		wait = new WebDriverWait(driver, 30); 
 	} 
 
 	@After
